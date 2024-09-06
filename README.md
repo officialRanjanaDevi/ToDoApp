@@ -17,7 +17,7 @@ A simple and interactive To-Do website built with **React** that helps users man
 
 ## How to Run Locally 🏃‍♂️
 1. Clone this repository
-   git clone https://github.com/yourusername/todo-website.git
+   git clone https://github.com/officialRanjanaDevi/ToDoApp.git
 
 Future Improvements 🚀
 1. Add due dates to tasks ⏳
