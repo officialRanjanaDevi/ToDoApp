@@ -1,0 +1,97 @@
+.toDoApp{
+    height: 5rem;
+    width: 80vw;
+    border: 3px solid rgb(24, 24, 24);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding:0rem 2rem 0rem 2rem;
+    margin: auto;
+
+}
+.toDoApp-text{
+    width: 95%;
+}
+.counter{
+    border: 3px solid rgb(23, 22, 22);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: rgb(255, 174, 23);
+    padding: .5rem;
+}    
+
+.inputTask{
+    margin-top: 1rem;
+    background-color: rgb(240, 240, 240);
+}
+input{
+    width: 17rem;
+    height: 2rem;
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: .5rem;
+    box-shadow: 4px 4px 1px rgb(255, 174, 23);
+    background-color: rgb(10, 10, 10);
+    margin: 1rem;
+}
+
+
+.taskList{
+    padding: 1rem;
+    position: relative;
+ }
+.taskList>ul{
+    list-style-type:none
+
+}
+.taskList>ul>li{
+   margin-left: 2rem;
+   margin-bottom: 1rem;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    color: wheat;
+}
+.markall{
+
+    position: absolute;
+     bottom: -3rem !important;
+     left: 42vw;
+ }
+ .fa-trash-can{
+    color: red !important;
+ }
+ @media (max-width:575px) {
+     .taskList>ul>li{
+         margin-left: 0rem;
+         width: 85vw;
+      }
+      .taskList{
+         padding: 1rem;
+      }
+      .markall{
+         left: 30vw;
+      }
+ }
+.taskList>ul>li>div>i{
+    font-size: 1.1rem;
+   color: antiquewhite;
+    margin: .5rem;
+}
+
+.progress{
+    height: .3rem !important;
+}
+
+
+i{
+    font-size: 1.6rem;
+}
+i:hover{
+    transform: scale(1.1);
+}
