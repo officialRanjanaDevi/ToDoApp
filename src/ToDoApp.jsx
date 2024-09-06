@@ -92,7 +92,7 @@ export default function ToDoApp() {
                         let doneStyle = { backgroundColor: todo.isdone ? "green" : "#8955bb" };
                         return (
                             <li className="col-sm-5 " key={todo.id} style={doneStyle}>
-                                <span>{count++}. {todo.todo}</span>
+                                <span>{count++}. {todo.task}</span>
 
                                 <div>
                                     <i className="fa-solid fa-square-check" style={doneStyle} onClick={() => taskCompleted(todo.id)}></i>
