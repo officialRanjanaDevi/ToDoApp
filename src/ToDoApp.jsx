@@ -2,7 +2,7 @@ import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import "./ToDoApp.css";
 
-export default function ToDoList() {
+export default function ToDoApp() {
     let [todos, setTodos] = useState([]);
     let [newTodo, setNewToDo] = useState("");
     let [progressBar, setProgressBar] = useState(1);

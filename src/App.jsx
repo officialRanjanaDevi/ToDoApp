@@ -1,5 +1,5 @@
 import './App.css'
-import ToDoList from './ToDoApp'
+import ToDoApp from './ToDoApp'
 function App() {
    return (
     <>
@@ -12,7 +12,7 @@ function App() {
       <spam>p</spam>
       <spam>p</spam>
       </h1>
-     <ToDoList/>    
+     <ToDoApp/>    
     </>
   )
 }
